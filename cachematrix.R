@@ -2,11 +2,11 @@
 
 ## makeCacheMatrix first check whether the passed matrix is invertible. If so,
 ## then creates a special list containing:
-## 1. a function to set the value of the matrix, and its inverse to be NULL
+## 1. a function to set the value of the matrix, and set its inverse to be NULL
 ## 2. a function to get the value of the matrix
-## 3. a function to set the inverse matrix
-## 4. a function to get the inverse matrix
-## NOTE: makeMatrix won't do the calculation of the inverse.
+## 3. a function to set the inverse 
+## 4. a function to get the inverse 
+## NOTE: makeCacheMatrix won't do the calculation of the inverse.
 
 makeCacheMatrix <- function(x = matrix()) {
     if(det(x)==0){
